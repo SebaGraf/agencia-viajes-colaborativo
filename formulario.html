@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Viaje</title>
+</head>
+<body>
+    <h2>Registro de Viaje</h2>
+    <form action="procesar_filtro.php" method="post">
+        <label>Nombre del Hotel:</label>
+        <input type="text" name="nombreHotel" required><br>
+        
+        <label>Ciudad:</label>
+        <input type="text" name="ciudad" required><br>
+        
+        <label>País:</label>
+        <input type="text" name="pais" required><br>
+        
+        <label>Fecha de Viaje:</label>
+        <input type="date" name="fechaViaje" required><br>
+        
+        <label>Duración del Viaje (días):</label>
+        <input type="number" name="duracion" required><br>
+        
+        <input type="submit" value="Buscar">
+    </form>
+</body>
+</html>
