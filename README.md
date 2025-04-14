@@ -20,4 +20,4 @@ Base de datos: MySQL
 Control de versiones: Git y GitHub
 Servidor local: XAMPP
 👥 Colaboradores
-@Nicoleecaroca — Desarrolladora principal
+@SebaGraf — Desarrollador principal
